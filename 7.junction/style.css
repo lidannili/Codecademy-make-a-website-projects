@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+body {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.nav {
+    display: inline-block;
+    margin: 0;
+    padding: 8px 0;
+  	list-style: none;
+}
+.logo {
+    margin: 0 30px 0;
+}
+.nav li {
+    color: #fff;
+    display: inline;
+    font-size: 14px;
+    margin-right: 30px;
+    padding: 0 0 5px;
+}
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background: rgba(0,0,0,.5);
+  height: 60px;
+  padding: 10px 0;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.jumbotron h1 {
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+.supporting .col-md-4 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.supporting h2{
+	font-size:25px;
+}
+.supporting p{
+	font-size:16;
+}
+.download {
+text-align:center;
+margin-top:40px;
+}
+.btn-default {
+    background: rgba(0,255,188,0.5);
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 10px 60px;
+    margin-bottom: 100px;
+  	
+}
